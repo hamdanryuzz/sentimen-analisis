@@ -14,6 +14,9 @@ from textblob import TextBlob
 import googletrans
 from googletrans import *
 import matplotlib.pyplot as plt
+nltk.download('wordnet')
+nltk.download('punkt')
+nltk.download('stopwords')
 
 sl.sidebar.header('SKRTT Team \n`IT Project`  `Sentimen Anlisis`')
 
