@@ -17,7 +17,6 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 import datetime
 from datetime import date
-from pywinauto.keyboard import SendKeys
 
 sl.sidebar.header('SKRTT Team \n`IT Project`  `Sentimen Anlisis`')
 
@@ -194,10 +193,6 @@ if uploaded_file is not None:
 
         sl.write('*****')
 
-        if sl.button('Download Result'):
-            SendKeys('^p')
-        else:
-            pass
         
         
         
