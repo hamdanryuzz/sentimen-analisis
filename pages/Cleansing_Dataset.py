@@ -17,6 +17,7 @@ import matplotlib.pyplot as plt
 nltk.download('wordnet')
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('omw-1.4')
 
 sl.sidebar.header('SKRTT Team \n`IT Project`  `Sentimen Anlisis`')
 
