@@ -16,7 +16,7 @@ import googletrans
 from googletrans import *
 import matplotlib.pyplot as plt
 sl.set_page_config(
-    page_title="Multipage App"
+    page_title="Sentimen Analisis"
 )
 
 sl.sidebar.header('SKRTT Team \n`IT Project`  `Sentimen Anlisis`')
