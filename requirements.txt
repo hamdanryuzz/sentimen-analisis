@@ -1,6 +1,6 @@
 contractions
 emoji
-googletrans
+googletrans==3.1.0a0
 matplotlib
 nltk
 pandas
